@@ -41,3 +41,7 @@ You can use this in combination with get_ip_address() to get the users IP addres
     <?php
     echo is_tor_network( "169.1.73.191") ? 'true':'false';
     ?>
+    
+## PHP benchmark script
+
+You can benchmark and compare different PHP versions with this script. Or use it to compare different hostingproviders!
