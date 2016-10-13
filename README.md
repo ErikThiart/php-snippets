@@ -14,3 +14,17 @@ Syntax:
     $mobile = "918112998787";
     send_sms($mobile,$message);
     ?>
+    
+## Get IP Address
+
+get_ip_address -- Retrieves Ip adres from user and checkes for proxy server.
+
+(string) get_ip_address()
+
+This simple function checkes whether the uses is behind a (transparent) proxy, and returns the found IP adres. 
+
+**PHP Call**
+
+    <?php
+    echo get_ip_address();
+    ?>
