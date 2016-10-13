@@ -23,8 +23,21 @@ get_ip_address -- Retrieves Ip adres from user and checkes for proxy server.
 
 This simple function checkes whether the uses is behind a (transparent) proxy, and returns the found IP adres. 
 
-**PHP Call**
+**PHP Call:**
 
     <?php
     echo get_ip_address();
+    ?>
+    
+## Is Tor Network
+
+is_tor_network -- Checks if IP is from the Tor network.
+
+This simple function checkes whether the given IP is from the TOR network. Great for checking out on your users.
+You can use this in combination with get_ip_address() to get the users IP address. 
+
+**PHP call:**
+
+    <?php
+    echo is_tor_network( "169.1.73.191") ? 'true':'false';
     ?>
